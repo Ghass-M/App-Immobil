@@ -21,7 +21,7 @@ git clone <repo-url>
 cd appimmobil
 ```
 
-#### Install dependencies (root-level + subprojects if split)
+#### Install dependencies
 
 The repo has separate folders (`frontend/`, `backend/`), install in each:
 
@@ -147,7 +147,7 @@ A layered Fastify + TypeScript + MySQL REST API.
 - `src/schemas/*` — Zod definitions for request validation
 - `src/types/*` — Shared interfaces/DTOs
 
-## What I Would Add With More Time (Full-Stack)
+## What Could Be Added With More Time (Full-Stack)
 
 - Request cancellation + debouncing
 - Code-splitting / lazy-loading routes
